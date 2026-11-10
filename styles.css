@@ -19,6 +19,23 @@ header {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
 }
+/*avatar photo */
+.avatar {
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Moodboard image inside a bio card */
+.moodboard-img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 15px auto 0;
+    border-radius: 8px;
+}
 
 /* Menu button styling */
 header nav {
@@ -87,4 +104,12 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+/* Bios layout */
+#bios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    align-items: start;
 }
